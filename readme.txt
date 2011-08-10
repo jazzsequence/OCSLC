@@ -16,3 +16,4 @@ Changelog
 * changed Theme URI
 * updated description slightly
 * copied mimbo theme into ocslc directory for git repository
+* reset background color to default
