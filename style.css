@@ -10,6 +10,6 @@ Version: 0.1
 
 @import url('../mimbo/style.css');
 
-body { background-color: #333333; font-family: 'Droid Sans', Trebuchet, sans-serif; }
+body { font-family: 'Droid Sans', Trebuchet, sans-serif; }
 #nav-cat { min-height: 20px; }
 #nav-cat li { padding:  0 25px 0 0!important; }
