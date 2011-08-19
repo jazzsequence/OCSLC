@@ -28,3 +28,5 @@ Changelog
 * moved description to the right side
 * cleaned up search bar position
 * updated footer and added xmission credit
+* added new function to create a meta box on pages for featured content (for the home page)
+* created new home page template, keeping the mimbo layout but ripping out the custom loop stuff
