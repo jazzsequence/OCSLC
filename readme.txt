@@ -17,3 +17,9 @@ Changelog
 * updated description slightly
 * copied mimbo theme into ocslc directory for git repository
 * reset background color to default
+
+-- 08/19/2011 --
+-- Version 0.1.1 --
+* created images directory
+* added OC logo and xmission credit to images directory
+* added logo to header.php (needs work) and changed h1 style
