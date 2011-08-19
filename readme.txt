@@ -32,4 +32,7 @@ Changelog
 * created new home page template, keeping the mimbo layout but ripping out the custom loop stuff
 
 -- 08/19/2011 --
--- Version 0.2 -- 
+-- Version 0.2.1 -- 
+* added widgetized sidebar for home page layout
+* changed p and ul styling
+* removed category title in sidebar
