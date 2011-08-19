@@ -35,7 +35,7 @@
 <div id="wrapper" class="clearfloat">
 
 
-<div class="clearfloat" id="masthead"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('stylesheet_url'); ?>/images/OC-logo.gif" alt="Salt Lake City Open Classroom" class="logo" /></a><br />
+<div class="clearfloat" id="masthead"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/OC-logo.gif" alt="Salt Lake City Open Classroom" class="logo" /></a><br />
 <h1 class="sitetitle"><a href="<?php echo home_url(); ?>/" title="<?php _e('Return Home','Mimbo'); ?>"><?php bloginfo('name'); ?></a></h1>
 
 <div id="description"><?php bloginfo('description'); ?></div>
