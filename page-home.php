@@ -19,55 +19,9 @@
 			
 		
 		<div id="more-posts">
-		<h3><?php _e('Recent Posts','Mimbo'); ?></h3>
-		
-		<?php
-		}
-		elseif( $postcount > 0 && $postcount <= 4 ) { 
-		//GETS NEXT FOUR EXCERPTS
-		?>
-			
 		<div class="clearfloat recent-excerpts">
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></a>
-
-<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a> <span class="commentcount">(<?php comments_popup_link('0', '1', '%'); ?>)</span></h4>
-
-<p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
-			<?php the_excerpt(); ?>
-		</div>
-						
-<?php //GETS NEXT HEADLINES
-		}
-		else { 
-			ob_start();
-			echo '<li><a href="'; 
-			the_permalink();
-			echo '">';
-			the_title();
-			echo '</a></li>';
-			$links[] = ob_get_contents();
-			ob_end_clean();			
-		}
-		$postcount ++;
-		}
-	}
-	else {
-?>
-
-<?php } ?>
-	
-	
-<?php 
-	if(count($links)): ?>
-
-	 <h3><?php _e('Older Posts','Mimbo'); ?></h3>
-	 <ul class="headlines"><?php echo join("\n", $links); ?></ul>
-			
-	<?php endif; ?>
-	</div><!--END RECENT/OLDER POSTS-->
-	
-    
+			<?php the_content(); ?>
+		</div>    
     
 	<div id="featured-cats"> 
 	<h3><?php _e('Featured Categories','Mimbo'); ?></h3>
