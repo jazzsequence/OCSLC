@@ -24,4 +24,3 @@ Changelog
 * added OC logo and xmission credit to images directory
 * added logo to header.php (needs work) and changed h1 style
 
-test
