@@ -11,7 +11,7 @@ Version: 0.2.2
 @import url('../mimbo/style.css');
 @import url('fonts/desyrel.css');
 
-body { font-family: 'Droid Sans', Trebuchet, sans-serif; }
+body { font-family: 'Droid Sans', Trebuchet, sans-serif; font-size: 1.05em; }
 #nav-cat { min-height: 20px; }
 #nav-cat li { padding:  0 25px 0 0!important; }
 p { margin: 1.2em 0; }
@@ -23,3 +23,6 @@ h1.sitetitle {  font-weight: normal; font-size: 1.5em; text-align: left; font-fa
 div#masthead { padding: 5px 0; }
 div#description { margin: 0; border-left: none; float: right; }
 form#searchform { clear: right; margin-top: 10px; }
+
+/* content */
+div#lead-text { padding: 2px 0; }
