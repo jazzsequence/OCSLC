@@ -33,8 +33,8 @@ function ocslc_quote() { // this loads the actual meta boxes
 	echo '<input type="hidden" name="ocslc_noncename" id="ocslc_noncename" value="' .
 	wp_create_nonce( wp_basename(__FILE__) ) . '" />';
 	echo '<p><em>This adds the ability to pull optional content page meta.  This fills in the featured content area in the OCSLC home page.</em></p>';
-	echo '<label for="quote_text"><strong>Excerpt Content</strong></label><br />';
-	echo '<textarea style="height: 200px;" name="quote_text" />'.get_post_meta($post->ID, 'quote_text', true).'</textarea><br />';
+	echo '<label for="ocslc_excerpt"><strong>Excerpt Content</strong></label><br />';
+	echo '<textarea style="height: 200px;" name="ocslc_excerpt" />'.get_post_meta($post->ID, 'ocslc_excerpt', true).'</textarea><br />';
 	echo '<em>HTML is allowed</em><br />';
 }
 
