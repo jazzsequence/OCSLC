@@ -1,4 +1,13 @@
 <?php 
+// adds a widgetized menu to the left sidebar
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+		'name' => 'Left Sidebar',
+        'before_widget' => '<div class="widget clearfloat">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

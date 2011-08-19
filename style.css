@@ -13,6 +13,8 @@ Version: 0.2
 body { font-family: 'Droid Sans', Trebuchet, sans-serif; }
 #nav-cat { min-height: 20px; }
 #nav-cat li { padding:  0 25px 0 0!important; }
+p { margin: 1.2em 0; }
+ul { margin: 0px 20px 10px; }
 
 /* header */
 .logo { clear: both; float: left; }
