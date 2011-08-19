@@ -13,3 +13,7 @@ Version: 0.1
 body { font-family: 'Droid Sans', Trebuchet, sans-serif; }
 #nav-cat { min-height: 20px; }
 #nav-cat li { padding:  0 25px 0 0!important; }
+
+/* header */
+.logo { float: left; }
+h1.sitetitle { clear: left; font-weight: normal; font-size: 1.5em; }
