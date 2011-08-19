@@ -58,5 +58,5 @@
 
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Mimbo Sidebar') ) : ?><?php endif; ?>
  		
-<p><a href="http://xmission.com" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/xmission.gif" alt="Internet Services Donated by XMission" class="xmission-credit" /></p>
+<p><a href="http://xmission.com" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/xmission.gif" alt="Internet Services Donated by XMission" class="xmission-credit" /></a></p>
 </div><!--END SIDEBAR-->
