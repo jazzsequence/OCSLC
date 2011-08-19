@@ -3,34 +3,19 @@
 	Template Name: OC Home Page
 	Description: This is a modified version of Mimbo's default index.php.  We're keeping the basic formatting but changing the content and the loop to pull from page content rather than from the blog
 */
- get_header();
- if (have_posts()) { ?>
+ get_header(); ?>
 
 <div id="content">
 
- <?php
-	$postCount = 0;
-	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
-	while (have_posts()) { the_post(); 
-		if( $postcount == 0 ) { 
-		//GETS LATEST OR STICKY POST
-	?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	        
-    <div id="lead" class="clearfloat">
-			 
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail('featured'); } ?></a>
-    
-	<div id="lead-text">
-    <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-    <?php the_title(); ?></a> <span class="commentcount"> (<?php comments_popup_link('0', '1', '%'); ?>)</span></h2>
-    
-   
-    <p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
-	<?php the_excerpt(); ?>
-	</div>
-			</div><!--END LEAD/STICKY POST-->
+    <div id="lead" class="clearfloat">			 
+		<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail('featured'); } ?></a>
+		<div id="lead-text">
+			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+			<?php if(get_post_meta($post->ID, 'ocslc_excerpt')) { echo get_post_meta($post->ID, 'ocslc_excerpt', true); } ?>
+		</div>
+	</div><!--END LEAD/STICKY POST-->
 			
 		
 		<div id="more-posts">
