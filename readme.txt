@@ -31,8 +31,20 @@ Changelog
 * added new function to create a meta box on pages for featured content (for the home page)
 * created new home page template, keeping the mimbo layout but ripping out the custom loop stuff
 
--- 08/19/2011 --
 -- Version 0.2.1 -- 
 * added widgetized sidebar for home page layout
 * changed p and ul styling
 * removed category title in sidebar
+* added page.php template without comment block
+* added webfont
+* added desryl.css to main css
+* moved mimbo dropdown.js script to functions.php with wp_register_script
+* used automatic-feed-links instead of old fashioned feed links
+* ded droid sans import via wp_register_style
+
+-- Version 0.2.2 --
+* fixed typo
+* changed position of title
+* changed #masthead padding
+* changed #description margins
+* updated version
