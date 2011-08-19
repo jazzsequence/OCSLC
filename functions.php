@@ -28,6 +28,20 @@ if ( function_exists('register_sidebar') )
 	add_image_size( 'archivelist', 80, 65 ); // archive list thumbnail size
 	add_image_size( 'featured', 260, 230 ); // featured image thumbnail size
 
+	// automatic feed links
+	add_theme_support('automatic-feed-links');	
+	
+if ( !is_admin() ) { // instruction to only load if it is not the admin area
+	$theme  = get_theme( get_current_theme() );
+	// register droid sans
+	wp_register_style('droid-sans','http://fonts.googleapis.com/css?family=Droid+Sans:400,700',false,$theme['Version']);
+	wp_register_script('mimbo-dropdown',get_bloginfo('template_url').'/js/dropdowns.js',false,$theme['Version']);
+	// enqueue styles and scripts
+	wp_enqueue_style('droid-sans');
+	wp_enqueue_style('mimbo-dropdown');
+}	
+	
+	
 // add a meta box for pages to display in the sidebar
 // this is some hardcore ninja shit
 if (current_user_can('administrator')) { // this checks to see if the current user is an administrator, if so, they can add the quote, otherwise gtfo

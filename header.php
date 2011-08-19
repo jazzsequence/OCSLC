@@ -14,9 +14,6 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen,projection" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/print.css" type="text/css" media="print" />
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/dropdowns.js"></script>
 <?php if ( is_singular() ) wp_enqueue_script('comment-reply'); // support for comment threading ?>
 <?php wp_head(); ?>
 </head>

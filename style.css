@@ -9,6 +9,7 @@ Version: 0.2.1
 */
 
 @import url('../mimbo/style.css');
+@import url('fonts/desryl.css');
 
 body { font-family: 'Droid Sans', Trebuchet, sans-serif; }
 #nav-cat { min-height: 20px; }
