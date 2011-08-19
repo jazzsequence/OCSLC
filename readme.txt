@@ -30,3 +30,6 @@ Changelog
 * updated footer and added xmission credit
 * added new function to create a meta box on pages for featured content (for the home page)
 * created new home page template, keeping the mimbo layout but ripping out the custom loop stuff
+
+-- 08/19/2011 --
+-- Version 0.2 -- 
