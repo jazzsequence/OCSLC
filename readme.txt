@@ -23,4 +23,7 @@ Changelog
 * created images directory
 * added OC logo and xmission credit to images directory
 * added logo to header.php (needs work) and changed h1 style
-
+* fixed logo positioning
+* added additional h1 styling
+* moved description to the right side
+* cleaned up search bar position
