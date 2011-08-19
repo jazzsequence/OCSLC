@@ -19,9 +19,13 @@
 			
 		
 		<div id="more-posts">
-		<div class="clearfloat recent-excerpts">
+			<div class="clearfloat recent-excerpts">
 			<?php the_content(); ?>
-		</div>    
+			</div>
+		</div>
+		<?php endwhile; endif; ?>
+	
+    
     
 	<div id="featured-cats"> 
 	<h3><?php _e('Featured Categories','Mimbo'); ?></h3>
