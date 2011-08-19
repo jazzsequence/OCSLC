@@ -27,3 +27,4 @@ Changelog
 * added additional h1 styling
 * moved description to the right side
 * cleaned up search bar position
+* updated footer and added xmission credit
