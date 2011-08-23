@@ -13,7 +13,7 @@
 <?php }?>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen,projection" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/print.css" type="text/css" media="print" />
-<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
+<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
 <?php if ( is_singular() ) wp_enqueue_script('comment-reply'); // support for comment threading ?>
 <?php wp_head(); ?>
 </head>
