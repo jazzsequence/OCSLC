@@ -47,4 +47,9 @@ Changelog
 * changed position of title
 * changed #masthead padding
 * changed #description margins
-* updated version
+* updated version to 0.5
+
+-- 08/23/2011 --
+-- Version 0.5.1 --
+* moved search box to the sidebar
+* some css resets and adjustments to accomodate new search box position
