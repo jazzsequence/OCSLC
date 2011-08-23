@@ -54,3 +54,4 @@ Changelog
 * moved search box to the sidebar
 * some css resets and adjustments to accomodate new search box position
 * added some h3 styles for home page headings
+* added favicon
