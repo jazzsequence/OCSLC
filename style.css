@@ -19,9 +19,9 @@ ul { margin: 0px 20px 10px; }
 
 /* header */
 .logo { clear: both; float: left; }
-h1.sitetitle {  font-weight: normal; font-size: 1.5em; text-align: left; font-family: 'DesyrelRegular', serif!important; margin: 40px 0 0 10px; }
+h1.sitetitle {  font-weight: normal; font-size: 1.5em; text-align: left; font-family: 'DesyrelRegular', serif!important; margin: 48px 0 0 10px; }
 div#masthead { padding: 5px 0; }
-div#description { margin: 50px 0 0 0; border-left: none; float: right; }
+div#description { margin: 52px 0 0 0; border-left: none; float: right; }
 form#searchform { margin-right: 10px; padding-top: 4px; }
 form#searchform input#s { height: 10px; font-size: 10px; }
 
