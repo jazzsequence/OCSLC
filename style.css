@@ -36,3 +36,85 @@ div#lead-text { padding: 2px 0; }
 
 /* footer */
 #copyright { width: 910px; }
+
+/* from Mimbo css/nav.css */
+/*Category Nav Dropdowns*/
+
+#nav-cat li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+	}
+
+#nav-cat li:hover ul,
+#nav-cat li.sfhover ul {
+	left: 0px;
+	top: 15px; /* match top ul list item height */
+	}
+
+ul#nav-cat li:hover li ul,
+ul#nav-cat li.sfhover li ul {
+	top: -999em;
+	}
+
+ul#nav-cat li li:hover ul,
+ul#nav-cat li li.sfhover ul {
+	left: 158px; /* match ul width */
+	top: 0;
+	}
+
+ul#nav-cat li li:hover li ul,
+ul#nav-cat li li.sfhover li ul {
+	top: -999em;
+	}
+
+ul#nav-cat li li li:hover ul,
+ul#nav-cat li li li.sfhover ul {
+	left: 158px; /* match ul width */
+	top: 0;
+	}
+	
+#nav-cat li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 178px;
+	z-index:1;
+	line-height:1;
+	-moz-opacity:.98;
+	opacity:.98;
+	border-right:1px solid #424242 !important;
+	border-bottom:1px solid #424242 !important;
+	}
+
+#nav-cat li li {
+	width: 178px;
+	background: #777;
+	z-index:1000;
+	height:auto;
+	padding:4px 0 !important;
+	margin:0;
+	letter-spacing: 0.06em;
+	border-right:none;
+	border-bottom:1px solid #848484;
+	}
+
+#nav-cat li li a, #nav-cat li li a:visited, 
+#nav-cat li.current_page_item li a, #nav-cat li.current_page_item li a:visited {
+	color:#dadada !important;
+	background: #777 !important;
+	border:none;
+	padding:4px 12px;
+	text-transform:uppercase;
+	font:0.8em Georgia, "Times New Roman", Times, serif !important;
+	padding:5px 12px !important;
+	}
+
+#nav-cat li li a:hover, #nav-cat li li a:active,
+#nav-cat li.current_page_item li a:hover, #nav-cat li.current_page_item li a:active {
+	color:#FFF !important;
+	border:none
+	}	
+		
+#nav-cat li:hover ul, #nav-cat li li:hover ul, #nav-cat li li li:hover ul, #nav-cat li.sfhover ul, 
+#nav-cat li li.sfhover ul, #nav-cat li li li.sfhover ul {
+	left: -45px;
+	}
