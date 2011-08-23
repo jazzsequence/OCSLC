@@ -28,6 +28,9 @@
 <?php wp_list_pages('title_li='); ?>
 </ul>
 */ ?>
+	<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
+	<input type="text" value="<?php the_search_query(); ?>" name="s" id="s" /><input type="image" src="<?php bloginfo('template_url'); ?>/images/magnify.gif" id="searchsubmit" />
+	</form>	
 
 <div id="wrapper" class="clearfloat">
 
@@ -35,9 +38,6 @@
 <div class="clearfloat" id="masthead">
 	<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/OC-logo.gif" alt="Salt Lake City Open Classroom" class="logo" /></a><br />
 	<div id="description"><?php bloginfo('description'); ?></div>	
-	<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
-	<input type="text" value="<?php the_search_query(); ?>" name="s" id="s" /><input type="image" src="<?php bloginfo('template_url'); ?>/images/magnify.gif" id="searchsubmit" />
-	</form>	
 	<h1 class="sitetitle"><a href="<?php echo home_url(); ?>/" title="<?php _e('Return Home','Mimbo'); ?>"><?php bloginfo('name'); ?></a></h1>
 </div><!--END MASTHEAD-->
 
