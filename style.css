@@ -25,3 +25,14 @@ div#description { margin: 52px 0 0 0; border-left: none; float: right; }
 
 /* content */
 div#lead-text { padding: 2px 0; }
+#lead-text h3, .home-page #more-posts h3 { 
+	border-top: none;
+	border-bottom: none;
+	padding: 0;
+	margin: auto;
+	letter-spacing: 0;
+	font-size: 1.5em;
+}
+
+/* footer */
+#copyright { width: 910px; }
