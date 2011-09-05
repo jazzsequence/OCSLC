@@ -40,6 +40,15 @@ div#lead-text { padding: 2px 0; }
 /* from Mimbo css/nav.css */
 /*Category Nav Dropdowns*/
 
+#nav li ul { border-right: 1px solid #cccccc!important; border-bottom: 1px solid #cccccc!important; }
+#nav li li { background: #E4E2DB!important; border-bottom: 1px solid #cccccc;}
+#nav li li a, #nav li li a:visited, #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited { 
+	font: 0.7em 'Droid Sans', sans-serif!important;
+	text-transform: none;
+	background: #E4E2DB!important;
+	
+}
+
 #nav-cat li:hover {
 	visibility: inherit; /* fixes IE7 'sticky bug' */
 	}
@@ -103,8 +112,8 @@ ul#nav-cat li li li.sfhover ul {
 	background: #777 !important;
 	border:none;
 	padding:4px 12px;
-	text-transform:uppercase;
-	font:0.8em Georgia, "Times New Roman", Times, serif !important;
+	text-transform:none;
+	font: 0.95em 'Droid Sans', sans-serif !important;
 	padding:5px 12px !important;
 	}
 

@@ -59,3 +59,5 @@ Changelog
 -- 09/05/2011 --
 -- Version 0.5.2 --
 * added additional help text to home page meta box
+* changed font and font style in dropdown menus
+* changed background color and borders in top dropdown menu
