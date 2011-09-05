@@ -22,9 +22,11 @@ ul { margin: 0px 20px 10px; }
 h1.sitetitle {  font-weight: normal; font-size: 1.5em; text-align: left; font-family: 'DesyrelRegular', serif!important; margin: 48px 0 0 10px; }
 div#masthead { padding: 5px 0; }
 div#description { margin: 52px 0 0 0; border-left: none; float: right; }
+h3 { font-family: 'DesyrelRegular', serif!important; font-weight: normal; font-size: 1.3em; }
 
 /* content */
 div#lead-text { padding: 2px 0; }
+#lead, #lead:hover { background: #e8e8e8; }
 #lead-text h3, .home-page #more-posts h3 { 
 	border-top: none;
 	border-bottom: none;
@@ -40,15 +42,29 @@ div#lead-text { padding: 2px 0; }
 /* from Mimbo css/nav.css */
 /*Category Nav Dropdowns*/
 
+#nav-cat li li a:hover, #nav-cat li li a:active, #nav li li a:hover, #nav li li a:active { color: #1d1d1d!important; }
+
+#nav-cat {
+	background: transparent;
+	border-top: 2px solid #777777;
+	border-bottom: 1px solid #777777;	
+}
+#nav a, #nav a:visited { font-family: 'Droid Sans', sans-serif!important; }
+#nav-cat a, #nav-cat a:visited { 
+	font-family: 'Droid Sans', sans-serif!important;
+	color: #797976;
+}
+
 #nav-cat li ul, #nav li ul { border-right: 1px solid #cccccc!important; border-bottom: 1px solid #cccccc!important; }
-#nav-cat li li, #nav li li { background: #E4E2DB!important; border-bottom: 1px solid #cccccc;}
+#nav-cat li li, #nav li li { background: #efefef!important; border-bottom: 1px solid #cccccc;}
 #nav-cat li li a, #nav-cat li li a:visited, #nav-cat li.current_page_parent li.current_page_item a, #nav-cat li.current_page_parent li.current_page_item a:visited, #nav li li a, #nav li li a:visited, #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited { 
 	font: 0.7em 'Droid Sans', sans-serif!important;
 	text-transform: none;
-	background: #E4E2DB!important;
+	background: transparent!important;
 	color: #777777!important;
 }
-#nav-cat li li a:hover, #nav-cat li li a:active, #nav li li a:hover, #nav li li a:active { color: #1d1d1d!important; }
+#nav-cat a:hover, #nav-cat a:active { color: #1d1d1d!important; }
+#nav-cat li { border-right: 1px dotted #cccccc; }
 
 #nav-cat li:hover {
 	visibility: inherit; /* fixes IE7 'sticky bug' */
@@ -121,3 +137,5 @@ ul#nav-cat li li li.sfhover ul {
 #nav-cat li li.sfhover ul, #nav-cat li li li.sfhover ul {
 	left: -45px;
 	}
+	
+#nav li li:hover, #nav-cat li li:hover { background: #d1d1d1!important; }

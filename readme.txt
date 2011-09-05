@@ -62,3 +62,5 @@ Changelog
 * changed font and font style in dropdown menus
 * changed background color and borders in top dropdown menu
 * applied styles to subnav bar
+* added hover color to dropdown menus
+* applied font to h3 tags
