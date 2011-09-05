@@ -5,13 +5,14 @@ Description: Child theme of Mimbo by <a href="http://www.darrenhoyt.com">Darren 
 Author: Arcane Palette Creative Design
 Author URI: http://arcanepalette.com
 Template: mimbo
-Version: 0.5.2
+Version: 1.0
 */
 
 @import url('../mimbo/style.css');
 @import url('fonts/desyrel.css');
 
-body { font-family: 'Droid Sans', Trebuchet, sans-serif; font-size: 1.05em; }
+body { background: #f1f1f1; font-family: 'Droid Sans', Trebuchet, sans-serif; font-size: 1.05em; }
+#wrapper { border: none!important; }
 #nav-cat { min-height: 20px; }
 #nav-cat li { padding:  0 25px 0 0!important; }
 p { margin: 1.2em 0; }
@@ -26,7 +27,7 @@ h3 { font-family: 'DesyrelRegular', serif!important; font-weight: normal; font-s
 
 /* content */
 div#lead-text { padding: 2px 0; }
-#lead, #lead:hover { background: #e8e8e8; }
+#lead, #lead:hover { background: #f6f6f6; border: none!important; }
 #lead-text h3, .home-page #more-posts h3 { 
 	border-top: none;
 	border-bottom: none;

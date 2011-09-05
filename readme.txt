@@ -64,3 +64,12 @@ Changelog
 * applied styles to subnav bar
 * added hover color to dropdown menus
 * applied font to h3 tags
+* changed body background color
+* removed border from wrapper
+* changed lead box background color
+* removed hover styles from lead box (actually did this a few commits ago)
+* removed border from lead box
+* calling this done...
+* removed mimbo directory from theme folder
+
+-- Version 1.0 --
