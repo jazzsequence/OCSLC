@@ -55,3 +55,7 @@ Changelog
 * some css resets and adjustments to accomodate new search box position
 * added some h3 styles for home page headings
 * added favicon
+
+-- 09/05/2011 --
+-- Version 0.5.2 --
+* added additional help text to home page meta box
