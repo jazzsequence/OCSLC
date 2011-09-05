@@ -61,3 +61,4 @@ Changelog
 * added additional help text to home page meta box
 * changed font and font style in dropdown menus
 * changed background color and borders in top dropdown menu
+* applied styles to subnav bar

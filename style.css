@@ -40,14 +40,15 @@ div#lead-text { padding: 2px 0; }
 /* from Mimbo css/nav.css */
 /*Category Nav Dropdowns*/
 
-#nav li ul { border-right: 1px solid #cccccc!important; border-bottom: 1px solid #cccccc!important; }
-#nav li li { background: #E4E2DB!important; border-bottom: 1px solid #cccccc;}
-#nav li li a, #nav li li a:visited, #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited { 
+#nav-cat li ul, #nav li ul { border-right: 1px solid #cccccc!important; border-bottom: 1px solid #cccccc!important; }
+#nav-cat li li, #nav li li { background: #E4E2DB!important; border-bottom: 1px solid #cccccc;}
+#nav-cat li li a, #nav-cat li li a:visited, #nav-cat li.current_page_parent li.current_page_item a, #nav-cat li.current_page_parent li.current_page_item a:visited, #nav li li a, #nav li li a:visited, #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited { 
 	font: 0.7em 'Droid Sans', sans-serif!important;
 	text-transform: none;
 	background: #E4E2DB!important;
-	
+	color: #777777!important;
 }
+#nav-cat li li a:hover, #nav-cat li li a:active, #nav li li a:hover, #nav li li a:active { color: #1d1d1d!important; }
 
 #nav-cat li:hover {
 	visibility: inherit; /* fixes IE7 'sticky bug' */
@@ -90,26 +91,20 @@ ul#nav-cat li li li.sfhover ul {
 	line-height:1;
 	-moz-opacity:.98;
 	opacity:.98;
-	border-right:1px solid #424242 !important;
-	border-bottom:1px solid #424242 !important;
 	}
 
 #nav-cat li li {
 	width: 178px;
-	background: #777;
 	z-index:1000;
 	height:auto;
 	padding:4px 0 !important;
 	margin:0;
 	letter-spacing: 0.06em;
 	border-right:none;
-	border-bottom:1px solid #848484;
 	}
 
 #nav-cat li li a, #nav-cat li li a:visited, 
 #nav-cat li.current_page_item li a, #nav-cat li.current_page_item li a:visited {
-	color:#dadada !important;
-	background: #777 !important;
 	border:none;
 	padding:4px 12px;
 	text-transform:none;
@@ -119,7 +114,6 @@ ul#nav-cat li li li.sfhover ul {
 
 #nav-cat li li a:hover, #nav-cat li li a:active,
 #nav-cat li.current_page_item li a:hover, #nav-cat li.current_page_item li a:active {
-	color:#FFF !important;
 	border:none
 	}	
 		
