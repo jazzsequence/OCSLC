@@ -41,6 +41,12 @@ if ( !is_admin() ) { // instruction to only load if it is not the admin area
 	wp_enqueue_style('mimbo-dropdown');
 }	
 	
+// clear shortcode
+// a quick shortcode that clears floats
+function clear() {
+	return '<div class="clear"></div>';
+}
+add_shortcode('clear','clear');
 	
 // add a meta box for pages to display in the sidebar
 // this is some hardcore ninja shit

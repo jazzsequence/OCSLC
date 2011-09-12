@@ -127,11 +127,14 @@ ul#nav-cat li li li.sfhover ul {
 	text-transform:none;
 	font: 0.95em 'Droid Sans', sans-serif !important;
 	padding:5px 12px !important;
+	background: transparent!important;
+	color: #797976!important;
 	}
 
 #nav-cat li li a:hover, #nav-cat li li a:active,
 #nav-cat li.current_page_item li a:hover, #nav-cat li.current_page_item li a:active {
-	border:none
+	border:none;
+	color: #1d1d1d!important;
 	}	
 		
 #nav-cat li:hover ul, #nav-cat li li:hover ul, #nav-cat li li li:hover ul, #nav-cat li.sfhover ul, 
