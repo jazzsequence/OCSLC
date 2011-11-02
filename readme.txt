@@ -73,3 +73,7 @@ Changelog
 * removed mimbo directory from theme folder
 
 -- Version 1.0 --
+
+-- 11/1/2011 --
+-- Version 1.0.1 --
+* copied the modified featured cat sidebar from page-home.php to index.php so the blog page can have the same sidebar and when/if the home page is also the blog page.
